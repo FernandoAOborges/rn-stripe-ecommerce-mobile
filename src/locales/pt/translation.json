@@ -1,0 +1,63 @@
+{
+  "WALKTHROUGH": {
+    "DISCOUNT": "Desconto de 20%",
+    "ADVANTAGE": "Frete Grátis",
+    "TYPES": "Novos Produtos",
+    "SUBTITLE_DISCOUNT": "Produtos de chegada recente",
+    "CONTENT_DISCOUNT": "Compre 2 ou mais produtos e ganhe 20% de desconto para os primeiros 100 clientes.",
+    "SUBTITLE_ADVANTAGE": "para os primeiros 100 clientes",
+    "CONTENT_ADVANTAGE": "Compre 2 ou mais produtos e ganhe frete grátis para os primeiros 100 clientes.",
+    "CONTENT_TYPES": "Compre 2 ou mais produtos e ganhe 20% de desconto para os primeiros 100 clientes."
+  },
+  "LOGIN": {
+    "TITLE": "Bem-vindo\nDe volta!",
+    "EMAIL": "E-mail",
+    "EMAIL_PLACEHOLDER": "Digite seu e-mail",
+    "PASSWORD": "Senha",
+    "PASSWORD_PLACEHOLDER": "Digite sua senha",
+    "FORGOT": "Esqueceu sua senha?",
+    "LOGIN": "Entrar",
+    "REGISTER": "Criar uma conta?",
+    "REGISTER_BOLD": "Inscreva-se",
+    "ERROR": "E-mail ou senha estão incorretos",
+    "ERRORS": {
+      "EMAIL_REQUIRED": "O e-mail é obrigatório",
+      "EMAIL_INVALID": "Endereço de e-mail inválido",
+      "PASSWORD_REQUIRED": "A senha é obrigatória",
+      "PASSWORD_MIN": "A senha deve ter pelo menos 6 caracteres"
+    }
+  },
+  "FORGOT_PASSWORD": {
+    "TITLE": "Esqueceu\na senha",
+    "EMAIL": "E-mail",
+    "EMAIL_PLACEHOLDER": "Digite seu e-mail",
+    "SUBMIT": "Enviar",
+    "LOGIN": "Voltar ao login?",
+    "LOGIN_BOLD": "Click aqui",
+    "ERROR": {
+      "EMAIL_REQUIRED": "O e-mail é obrigatório",
+      "EMAIL_INVALID": "Endereço de e-mail inválido"
+    }
+  },
+  "REGISTER": {
+    "TITLE": "Criar uma\nConta",
+    "EMAIL": "E-mail",
+    "EMAIL_PLACEHOLDER": "Digite seu e-mail",
+    "PASSWORD": "Senha",
+    "PASSWORD_PLACEHOLDER": "Digite sua senha",
+    "CONFIRM_PASSWORD": "Confirmar Senha",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Confirme sua senha",
+    "REGISTER": "Cadastrar",
+    "LOGIN": "Já tem uma conta? ",
+    "LOGIN_BOLD": "Entrar",
+    "ERROR": {
+      "EMAIL_REQUIRED": "O e-mail é obrigatório",
+      "EMAIL_INVALID": "Endereço de e-mail inválido",
+      "PASSWORD_REQUIRED": "A senha é obrigatória",
+      "PASSWORD_MIN": "A senha deve ter pelo menos 6 caracteres",
+      "CONFIRM_PASSWORD_REQUIRED": "Confirmar a senha é obrigatório",
+      "CONFIRM_PASSWORD_MIN": "A confirmação da senha deve ter pelo menos 6 caracteres",
+      "CONFIRM_PASSWORD_EQUAL": "As senhas devem coincidir"
+    }
+  }
+}

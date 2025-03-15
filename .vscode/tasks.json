@@ -1,0 +1,25 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "type": "npm",
+      "script": "start",
+      "problemMatcher": [],
+      "label": "npm: start",
+      "detail": "react-native start"
+    },
+    {
+      "label": "Test with Coverage",
+      "type": "shell",
+      "command": "yarn",
+      "args": ["test", "--coverage", "--collectCoverage=false"],
+      "problemMatcher": [],
+      "detail": "Run tests with coverage report",
+      "presentation": {
+        "reveal": "always",
+        "panel": "dedicated"
+      }
+    }
+  ]
+}

@@ -1,0 +1,63 @@
+{
+  "WALKTHROUGH": {
+    "DISCOUNT": "20% Discount",
+    "ADVANTAGE": "Free Shipping",
+    "TYPES": "New Products",
+    "SUBTITLE_DISCOUNT": "New arrival products",
+    "CONTENT_DISCOUNT": "Purchase 2 or more products and get a 20% discount for the first 100 customers.",
+    "SUBTITLE_ADVANTAGE": "for the first 100 customers",
+    "CONTENT_ADVANTAGE": "Purchase 2 or more products and get free shipping for the first 100 customers.",
+    "CONTENT_TYPES": "Purchase 2 or more products and get a 20% discount for the first 100 customers."
+  },
+  "LOGIN": {
+    "TITLE": "Welcome\nBack!",
+    "EMAIL": "E-mail",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "PASSWORD": "Password",
+    "PASSWORD_PLACEHOLDER": "Enter your password",
+    "FORGOT": "Forgot your password?",
+    "LOGIN": "Login",
+    "REGISTER": "Create an account?",
+    "REGISTER_BOLD": "Sign up",
+    "ERROR": "Email or password is incorrect",
+    "ERRORS": {
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Invalid email address",
+      "PASSWORD_REQUIRED": "Password is required",
+      "PASSWORD_MIN": "Password must be at least 6 characters"
+    }
+  },
+  "FORGOT_PASSWORD": {
+    "TITLE": "Forgot\npassword",
+    "EMAIL": "E-mail",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "SUBMIT": "Submit",
+    "LOGIN": "Back to login?",
+    "LOGIN_BOLD": "Sign in",
+    "ERROR": {
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Invalid email address"
+    }
+  },
+  "REGISTER": {
+    "TITLE": "Create an\nAccount",
+    "EMAIL": "E-mail",
+    "EMAIL_PLACEHOLDER": "Enter your email",
+    "PASSWORD": "Password",
+    "PASSWORD_PLACEHOLDER": "Enter your password",
+    "CONFIRM_PASSWORD": "Confirm Password",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Confirm your password",
+    "REGISTER": "Register",
+    "LOGIN": "I already have an account",
+    "LOGIN_BOLD": "Sign in",
+    "ERROR": {
+      "EMAIL_REQUIRED": "Email is required",
+      "EMAIL_INVALID": "Invalid email address",
+      "PASSWORD_REQUIRED": "Password is required",
+      "PASSWORD_MIN": "Password must be at least 6 characters",
+      "CONFIRM_PASSWORD_REQUIRED": "Confirm password is required",
+      "CONFIRM_PASSWORD_MIN": "Confirm password must be at least 6 characters",
+      "CONFIRM_PASSWORD_EQUAL": "Passwords must match"
+    }
+  }
+}

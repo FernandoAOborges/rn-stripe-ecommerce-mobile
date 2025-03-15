@@ -1,0 +1,63 @@
+{
+  "WALKTHROUGH": {
+    "DISCOUNT": "Descuento del 20%",
+    "ADVANTAGE": "Envío gratuito",
+    "TYPES": "Nuevos productos",
+    "SUBTITLE_DISCOUNT": "Productos de llegada reciente",
+    "CONTENT_DISCOUNT": "Compra 2 o más productos y obtén un 20% de descuento para los primeros 100 clientes.",
+    "SUBTITLE_ADVANTAGE": "para los primeros 100 clientes",
+    "CONTENT_ADVANTAGE": "Compra 2 o más productos y obtén envío gratuito para los primeros 100 clientes.",
+    "CONTENT_TYPES": "Compra 2 o más productos y obtén un 20% de descuento para los primeros 100 clientes."
+  },
+  "LOGIN": {
+    "TITLE": "¡Bienvenido\nDe nuevo!",
+    "EMAIL": "Correo electrónico",
+    "EMAIL_PLACEHOLDER": "Ingrese su correo electrónico",
+    "PASSWORD": "Contraseña",
+    "PASSWORD_PLACEHOLDER": "Ingrese su contraseña",
+    "FORGOT": "¿Olvidaste tu contraseña?",
+    "LOGIN": "Iniciar sesión",
+    "REGISTER": "Crear una cuenta",
+    "REGISTER_BOLD": "Regístrate",
+    "ERROR": "El correo electrónico o la contraseña son incorrectos",
+    "ERRORS": {
+      "EMAIL_REQUIRED": "El correo electrónico es obligatorio",
+      "EMAIL_INVALID": "Dirección de correo electrónico no válida",
+      "PASSWORD_REQUIRED": "La contraseña es obligatoria",
+      "PASSWORD_MIN": "La contraseña debe tener al menos 6 caracteres"
+    }
+  },
+  "FORGOT_PASSWORD": {
+    "TITLE": "Olvidó\nsu contraseña",
+    "EMAIL": "Correo electrónico",
+    "EMAIL_PLACEHOLDER": "Ingrese su correo electrónico",
+    "SUBMIT": "Enviar",
+    "LOGIN": "¿Volver al inicio de sesión?",
+    "LOGIN_BOLD": "Presione aquí",
+    "ERROR": {
+      "EMAIL_REQUIRED": "El correo electrónico es obligatorio",
+      "EMAIL_INVALID": "Dirección de correo electrónico no válida"
+    }
+  },
+  "REGISTER": {
+    "TITLE": "Crear una\nCuenta",
+    "EMAIL": "Correo electrónico",
+    "EMAIL_PLACEHOLDER": "Ingrese su correo electrónico",
+    "PASSWORD": "Contraseña",
+    "PASSWORD_PLACEHOLDER": "Ingrese su contraseña",
+    "CONFIRM_PASSWORD": "Confirmar Contraseña",
+    "CONFIRM_PASSWORD_PLACEHOLDER": "Confirme su contraseña",
+    "REGISTER": "Registrarse",
+    "LOGIN": "Ya tengo una cuenta ",
+    "LOGIN_BOLD": "Iniciar sesión",
+    "ERROR": {
+      "EMAIL_REQUIRED": "El correo electrónico es obligatorio",
+      "EMAIL_INVALID": "Dirección de correo electrónico no válida",
+      "PASSWORD_REQUIRED": "La contraseña es obligatoria",
+      "PASSWORD_MIN": "La contraseña debe tener al menos 6 caracteres",
+      "CONFIRM_PASSWORD_REQUIRED": "Confirmar la contraseña es obligatorio",
+      "CONFIRM_PASSWORD_MIN": "La confirmación de la contraseña debe tener al menos 6 caracteres",
+      "CONFIRM_PASSWORD_EQUAL": "Las contraseñas deben coincidir"
+    }
+  }
+}
