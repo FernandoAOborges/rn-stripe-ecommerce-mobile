@@ -26,9 +26,9 @@ export type TRegisterFormValuesProps = z.infer<typeof registerSchema>;
 
 export const registerFormConfig = {
   defaultValues: {
-    email: 'd@d.com',
-    password: '123456',
-    confirmPassword: '123456',
+    email: '',
+    password: '',
+    confirmPassword: '',
   },
   resolver: zodResolver(registerSchema),
 };

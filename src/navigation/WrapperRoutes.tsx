@@ -3,6 +3,7 @@ import { SafeAreaView, StyleSheet } from 'react-native';
 import { ThemeProvider } from 'styled-components/native';
 
 import { StatusBar } from '@/components/atoms';
+import { SuspenseScreenWrapper } from '@/components/organisms';
 import { useAppSelector, useInitialConfig } from '@/hooks';
 import { themeSelector } from '@/redux/slices/ThemeSlice';
 import { logAnalyticsScreenView, logAnalyticsEvent } from '@/services/monitoring/analytics';
@@ -11,8 +12,8 @@ import { loggerError } from '@/services/monitoring/logger';
 import { darkTheme, lightTheme } from '@/theme';
 import { EThemeProps } from '@/types/global';
 
-import AuthenticatedRoutes from './AuthenticatedRoutes';
-import UnauthenticatedRoutes from './UnauthenticatedRoutes';
+const AuthenticatedRoutes = React.lazy(() => import('./app/app.routes.tsx'));
+const UnauthenticatedRoutes = React.lazy(() => import('./auth/auth.routes.tsx'));
 
 const themes = {
   light: lightTheme,
@@ -72,7 +73,9 @@ const WrapperRoutes = () => {
         }
       />
       <ThemeProvider theme={themes[theme]}>
-        {isAuthenticated ? <AuthenticatedRoutes /> : <UnauthenticatedRoutes />}
+        <SuspenseScreenWrapper>
+          {isAuthenticated ? <AuthenticatedRoutes /> : <UnauthenticatedRoutes />}
+        </SuspenseScreenWrapper>
       </ThemeProvider>
     </SafeAreaView>
     // </StripeProvider>

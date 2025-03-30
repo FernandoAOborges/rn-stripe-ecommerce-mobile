@@ -4,3 +4,4 @@ export { default as applyShadow } from './applyShadow';
 export { default as callFirebaseFunction } from './callFirebaseFunction';
 export { default as configureEmulators } from './configureEmulators';
 export { default as firebaseLogout } from './firebaseLogout';
+export { default as withSuspenseScreen } from './withSuspenseScreen';

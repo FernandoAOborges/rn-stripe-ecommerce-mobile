@@ -6,3 +6,4 @@ export { default as useDebouncedResetWaiting } from './useDebouncedResetWaiting'
 export { default as useForgotPassword } from './useForgotPassword';
 export { default as useRegister } from './useRegister';
 export { default as useInitialConfig } from './useInitialConfig';
+export { default as useNavigationTracker } from './useNavigationTracker';
